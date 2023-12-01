@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup\stylesignup.css">
+    <title>Nike Store</title>
+</head>
+
+<body>
+    
+    <section>
+        <form action="form.html" method="get">
+            <h2> Login</h2>
+            <fieldset>
+            <label for="username">Username</label>
+            <input type="text" placeholder="Email or Phone" id="username"required>
+    
+            <label for="password">Password</label>
+            <input type="password" placeholder="password" id="password" pattern="^[a-z A-Z 0-9]{8}" title="Password must contain at least 8 characters, one uppercase letter, one lowercase letter, and one digit."required>
+    
+            <div class="checkbox"> <input type="checkbox" onclick="togglePasswordVisibility()"></div>&nbsp;
+            <div class="pass">Show Password</div>
+           
+    
+            <button class="log">Log In/Sign-up</button>
+            </fieldset>
+        </form>
+      </section>
+    
+</body>
+
+</html>
